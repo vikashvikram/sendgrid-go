@@ -1,5 +1,5 @@
 # sendgrid-go
-A wrapper around sendgrid/sendgrid-go library to consume the api easily
+A wrapper around sendgrid/sendgrid-go library to consume the api easily and help you remove the boiler plate around using its `personalizations` feature.
 
 # install the package
 run `go get github.com/vikashvikram/sendgrid-go`
