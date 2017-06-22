@@ -33,6 +33,6 @@ func main() {
 }
 ```
 ### Please Note
-1. please make sure that SENDGRID_API_KEY env variable exists with valid values. In case you do not have it, please generate one from sendgrid.com website
+1. please make sure that SENDGRID_API_KEY env variable exists with valid values. In case you do not have it, please generate one from [sendgrid](https://sendgrid.com) website
 2. Sometimes you receive mails in your junk box so please don't forget to check mails there. In such cases, you will need to tell your email service that this is not a junk mail, so that in future you receive mails sent from sendgrid in your inbox.
 
