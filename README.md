@@ -12,7 +12,6 @@ package main
 
 import (
 	"fmt"
-	"log"
 
 	"github.com/vikashvikram/sendgrid-go"
 )
@@ -24,7 +23,7 @@ func main() {
 	body := "This is a test mail"
 	response, err := sendgrid.Mail(from, subject, to, body)
 	if err != nil {
-		log.Println(err)
+		fmt.Println(err)
 	} else {
 		fmt.Println(response.StatusCode)
 		fmt.Println(response.Body)
